@@ -589,7 +589,8 @@ Auf dem Weg dorthin kannst du noch etwas Holz sammeln, es würde dich jedoch um 
         if (annoYINg > 2):
             High(chapter, code)
             end = "True"
-        elif (annoYINg == 2):
+    if (end == 'False'):
+        if (annoYINg == 2):
             print('''\n'Dann also auf dem direkten Weg zum Strand.
 Wie durch ein Wunder kostet dich das nicht einmal Energie!, aber dein Inventar ist auch weiterhin leer!' ''')
         elif (annoYINg == 1):
